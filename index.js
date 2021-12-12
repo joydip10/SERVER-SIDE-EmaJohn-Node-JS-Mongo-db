@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 // firebase admin initialization 
 
 
-var serviceAccount =require('./ema-john-d5453-firebase-adminsdk-ls3up-860b67e74a.json');
+var serviceAccount =require('./ema-john-d5453-firebase-adminsdk-ls3up-ba33d96278.json');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
